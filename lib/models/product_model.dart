@@ -5,7 +5,7 @@ ProdutModel produtModelFromJson(String str) => ProdutModel.fromJson(json.decode(
 String produtModelToJson(ProdutModel data) => json.encode(data.toJson());
 
 class ProdutModel {
-    int id;
+    String id;
     String name;
     String image;
     int price;
